@@ -27,6 +27,8 @@
 		6CEE8E381FC1527C0096935F /* tableStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEE8E371FC1527C0096935F /* tableStoryboard.storyboard */; };
 		6CEE8E3A1FC152910096935F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE8E391FC152910096935F /* SplashViewController.swift */; };
 		6D34AE57226B1D387722F965 /* Pods_RaspberryAlarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453E638BBB752F176AC67A43 /* Pods_RaspberryAlarmUITests.framework */; };
+		D56EF9CA1FC154A100C077F9 /* Kh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56EF9C91FC154A100C077F9 /* Kh.storyboard */; };
+		D56EF9CC1FC154B700C077F9 /* KhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56EF9CB1FC154B700C077F9 /* KhViewController.swift */; };
 		FF0B04AA1FB87151005DF58E /* RecordingPhase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0B04A91FB87151005DF58E /* RecordingPhase.storyboard */; };
 		FF0B04AC1FB8715D005DF58E /* RecordingPhaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B04AB1FB8715D005DF58E /* RecordingPhaseViewController.swift */; };
 		FF881ECA1FBFC9B200EF25F2 /* AlarmTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF881EC91FBFC9B200EF25F2 /* AlarmTime.swift */; };
@@ -79,6 +81,8 @@
 		6CEE8E371FC1527C0096935F /* tableStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = tableStoryboard.storyboard; sourceTree = "<group>"; };
 		6CEE8E391FC152910096935F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B9E8C999EB4677086B5803E0 /* Pods_RaspberryAlarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaspberryAlarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56EF9C91FC154A100C077F9 /* Kh.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kh.storyboard; sourceTree = "<group>"; };
+		D56EF9CB1FC154B700C077F9 /* KhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhViewController.swift; sourceTree = "<group>"; };
 		DD0DA70632578378C3102332 /* Pods-RaspberryAlarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaspberryAlarmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaspberryAlarmTests/Pods-RaspberryAlarmTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA8520551DF2C986D8BC9176 /* Pods-RaspberryAlarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaspberryAlarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaspberryAlarm/Pods-RaspberryAlarm.release.xcconfig"; sourceTree = "<group>"; };
 		FBD9532205C60E023543BC24 /* Pods-RaspberryAlarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaspberryAlarmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaspberryAlarmUITests/Pods-RaspberryAlarmUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +163,13 @@
 				6CEE8E391FC152910096935F /* SplashViewController.swift */,
 			);
 			path = Jaewook;
+		D56EF9C81FC1545300C077F9 /* kyuhan */ = {
+			isa = PBXGroup;
+			children = (
+				D56EF9C91FC154A100C077F9 /* Kh.storyboard */,
+				D56EF9CB1FC154B700C077F9 /* KhViewController.swift */,
+			);
+			path = kyuhan;
 			sourceTree = "<group>";
 		};
 		F4544BE3E284B37FB973E6AB /* Pods */ = {
@@ -218,6 +229,7 @@
 		FF9CF6B71FB6F5940033E3E3 /* RaspberryAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				D56EF9C81FC1545300C077F9 /* kyuhan */,
 				FF9CF6B81FB6F5940033E3E3 /* AppDelegate.swift */,
 				FF881F091FC0182100EF25F2 /* Extensions */,
 				FF9CF6EF1FB71E0B0033E3E3 /* Models */,
@@ -397,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56EF9CA1FC154A100C077F9 /* Kh.storyboard in Resources */,
 				FF9CF6C31FB6F5940033E3E3 /* LaunchScreen.storyboard in Resources */,
 				6CEE8E361FC152760096935F /* jwstoryboard.storyboard in Resources */,
 				6CEE8E381FC1527C0096935F /* tableStoryboard.storyboard in Resources */,
@@ -598,6 +611,7 @@
 				FF9CF6FE1FB7F9710033E3E3 /* SetUpAlarmNavigationViewController.swift in Sources */,
 				FFD257331FB85D99002D6B25 /* RepeatDaysSetUpViewController.swift in Sources */,
 				FF9CF7001FB800CA0033E3E3 /* WakeUpTimeSetUpViewController.swift in Sources */,
+				D56EF9CC1FC154B700C077F9 /* KhViewController.swift in Sources */,
 				FF9CF6F81FB730F10033E3E3 /* SliderSettingCell.swift in Sources */,
 				FF9CF6EA1FB70BC90033E3E3 /* AlarmItem.swift in Sources */,
 				FF881ECA1FBFC9B200EF25F2 /* AlarmTime.swift in Sources */,
